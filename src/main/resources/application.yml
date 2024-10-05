@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: san-giorgio-api
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: user
+    password: password
+    queues:
+      total-payment-queue: "total-payment"
+      partial-payment-queue: "partial-payment"
+      excess-payment-queue: "excess-payment"
