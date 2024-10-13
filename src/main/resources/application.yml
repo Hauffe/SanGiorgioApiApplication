@@ -10,3 +10,18 @@ spring:
       total-payment-queue: "total-payment"
       partial-payment-queue: "partial-payment"
       excess-payment-queue: "excess-payment"
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+  logging:
+    level:
+      root: DEBUG
