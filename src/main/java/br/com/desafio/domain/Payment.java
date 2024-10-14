@@ -1,7 +1,4 @@
 package br.com.desafio.domain;
-
-
-
 import br.com.desafio.infrastructure.repository.SellerRepository;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
