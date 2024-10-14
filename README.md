@@ -57,6 +57,9 @@ Now, if everithing works, test by sending the following request to  `/api/paymen
 
 You may see the queues being load with the requests
 
+![image](https://github.com/user-attachments/assets/3b9bf7ac-9351-4539-b184-0cafaf9284b2)
+
+
 #  How it works
 
 ### Endpoints:
