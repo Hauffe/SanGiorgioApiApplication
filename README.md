@@ -64,10 +64,7 @@ You may see the queues being load with the requests
 
 ### Endpoints:
 
-Please use Postman to better execute and test this application, this is also necessary to facilitate uploading documents as the following image shows:
-
-
-* ### Upload csv file and load the data
+* ### Send payment request
 
         PUT: http://localhost:8080/api/payment
 
