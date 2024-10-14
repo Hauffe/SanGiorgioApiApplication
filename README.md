@@ -79,19 +79,6 @@ You may see the queues being load with the requests
                     ]
             }
 
-* ### Get all films
-
-        GET:   http://localhost:8080/raspberry/films
-
-  No request body needed, returns all the films loaded.
-
-
-* ### Get the min and max values from the winner producer by the years
-
-        GET:  http://localhost:8080/raspberry/winners
-
-  No request body needed, return the minimum and maximum time between years of award by producers
-
 * ### RabbitMQ URL:
 
   Location to the rabbitMQ instance
