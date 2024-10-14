@@ -107,4 +107,4 @@ Please use Postman to better execute and test this application, this is also nec
 
 # Final considerations
 
-This is the base structure to handle SQNS processing, having both reading and sending methods to a queue using RabbitMQ.
+This is the base structure to handle MQS processing, having both reading and sending methods to a queue using RabbitMQ.
